@@ -1,6 +1,6 @@
 var kittens = ["Milo", "Otis", "Garfield"]
 
-function destructivelyAddElementToEndOfArray("Ralph") {
-  kittens.push("Ralph")
+function destructivelyAddElementToEndOfArray(name) {
+  kittens.push(name)
   return kittens
 }
